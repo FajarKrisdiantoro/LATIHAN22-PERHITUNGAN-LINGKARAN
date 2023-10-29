@@ -22,7 +22,9 @@ public class ProjectPBOgit22 {
         double area;
         double circumference;
         boolean validInput = false;
-
+        
+        System.out.println("=====PERHITUNGAN LINGKARAN=====");
+        
         while (!validInput) {
             System.out.print("Masukkan nilai diameter lingkaran: ");
             if (input.hasNextDouble()) {
